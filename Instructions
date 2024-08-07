@@ -1,0 +1,10 @@
+Build the program
+
+go build -o delete-bucket delete-bucket.go
+
+
+Run the program
+
+./delete-bucket -bucket my-bucket-name -region us-west-2 -profile terraform
+
+./delete-bucket  -region us-west-2 -profile terraform
